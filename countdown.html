@@ -2,6 +2,6 @@
 <html>
   <head></head>
   <body>
-    新年会まであと<span id="target_day" style="color:#F00;"><script>let target=new Date('2020/2/22');let now=new Date();now.setHours(0,0,0);let diffSec=(target.getTime()-now.getTime())/1000;document.getElementById('target_day').innerHTML=Math.floor(diffSec/(60*60*24));</script></span>日
+    新年会まであと<span id="target_day" style="color:#F00;"><script>let target=new Date('2020/2/22');let now=new Date();now.setHours(0,0,0);let diffSec=(target.getTime()-now.getTime())/1000;document.getElementById('target_day').innerHTML=Math.ceil(diffSec/(60*60*24));</script></span>日
   </body>
 </html>
